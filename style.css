@@ -135,13 +135,26 @@ section p{
 	width: 400px;
 	margin-left: 50%;
 }
-section column {
+ .content.column {
 	float: left;
 	width: 33.33%;
 	padding: 5px;
 }
-section row::after {
+.content.row::after {
 	content: "";
 	clear: both;
 	display: table;
+}
+
+.content {
+	/*-webkit-flex: 3;*/
+	/*-ms-flex: 3;*/
+	/*flex: 3;*/
+	/*background-color: #f1f1f1;*/
+	/*padding: 10px;*/
+}
+email{}
+
+#contact {
+	color: white;
 }

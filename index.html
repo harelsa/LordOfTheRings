@@ -6,7 +6,7 @@
 <body>
 
 <div id="header">
-  <mainHeadline class="siteName">Lord of the Rings</mainHeadline>
+   <mainHeadline class="siteName">Lord of the Rings</mainHeadline>
 
 </div><!--end header -->  
   
@@ -62,20 +62,20 @@
  <h1>Sauron's Photos</h1>
  <br/>
  <br/>
- <!--<div class="row">-->
-  <!--<div class="column">-->
-   <p>Me: </p>
-   <img src="photo1.jpg" alt="profile" class="photo">
-  <!--</div>-->
-  <!--<div class="column">-->
-   <p>My Pet: </p>
-   <img src="pet.jpg" alt="profile" class="photo">
-  <!--</div>-->
-  <!--<div class="column">-->
-   <p>Me And Friends: </p>
-   <img src="friends.png" alt="profile" class="photo">
-  <!--</div>-->
- <!--</div>-->
+ <content class="row">
+ <content class="column">
+ <p>Me: </p>
+ <img src="photo1.jpg" alt="profile" class="photo">
+ </content>
+ <content class="column">
+ <p>My Pet: </p>
+ <img src="pet.jpg" alt="profile" class="photo">
+ </content>
+ <content class="column">
+ <p>Me And Friends: </p>
+ <img src="friends.png" alt="profile" class="photo">
+ </content>
+ </content>
 
  <br/>
  <br/>
@@ -90,7 +90,7 @@
  <h1>Sauron's Playlist</h1>
  <br/>
  <br/>
-  <p>bla bla bla bla bla </p>
+ <p>bla bla bla bla bla </p>
  <br/>
  <br/>
  <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLtdUmP2Qv6mLRt8_AwGcmOy4D94JZc-DO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -165,24 +165,29 @@
  <br/>
  <br/>
  <br/>
- <h1>contact Sauron</h1>
+ <h1>Contact Site's Creator</h1>
  <br/>
  <br/>
- <p>bla bla bla bla bla </p>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- contact me
- <br/>
- <br/>
+ <email id="after_submit"></email>
+ <form id="contact_form" action="https://formspree.io/harels55@gmail.com" method="POST" enctype="multipart/form-data">
+  <email class="row">
+   <label class="required" for="name">Your name:</label><br />
+   <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+   <span id="name_validation" class="error_message"></span>
+  </email>
+  <email class="row">
+   <label class="required" for="email">Your email:</label><br />
+   <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+   <span id="email_validation" class="error_message"></span>
+  </email>
+  <email class="row">
+   <label class="required" for="message">Your message:</label><br />
+   <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+   <span id="message_validation" class="error_message"></span>
+  </email>
+
+  <input id="submit_button" type="submit" value="Send email" />
+ </form>
  <br/>
 </section>
 
