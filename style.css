@@ -28,7 +28,12 @@ body {
 	padding: 0;
 	width: 85%;
 	/*background-color: black;*/
-	background: lightslategrey url(https://subtlepatterns.com/patterns/extra_clean_paper.png);
+	/*background: lightslategrey url(https://subtlepatterns.com/patterns/extra_clean_paper.png);*/
+	background-image: url("Header4.jpg");
+	background-size: 1500px 110px ;
+	background-repeat: no-repeat;
+	background-position: center;
+
 }
 
 #menu
@@ -42,8 +47,12 @@ body {
 	margin-top: 0%;
 	padding: 0;
 	width: 15%;
-	//background-color: #f1f1f1;
-	background: lightslategrey url(https://subtlepatterns.com/patterns/extra_clean_paper.png);
+	/*background-color: #f1f1f1;*/
+	/*background: lightslategrey url(https://subtlepatterns.com/patterns/extra_clean_paper.png);*/
+	background-image: url("Header4.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 1000px 600px;
 	height: 100%; /* Full height */
 
 }
@@ -113,7 +122,7 @@ section{
 }
 section h1{
 	font-family: "Bookman Old Style", serif;
-	color: #555;
+	color: black;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 50px;
@@ -121,12 +130,12 @@ section h1{
 	letter-spacing: -3px;
 	line-height: 1;
 	/*text-shadow: #000000 3px 2px 0;*/
-	text-shadow:5px 5px 5px black;
+	text-shadow:5px 5px 5px lightslategray;
 	position: relative;
 }
 mainHeadline{
 	font-family: "Bookman Old Style", serif;
-	color: #555;
+	color: black;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 80px;
@@ -134,7 +143,7 @@ mainHeadline{
 	letter-spacing: -3px;
 	line-height: 1;
 	/*text-shadow: #000000 3px 2px 0;*/
-	text-shadow:5px 5px 5px black;
+	text-shadow:5px 5px 5px lightslategray;
 	position: center;
 	margin-left: 200px;
 }
