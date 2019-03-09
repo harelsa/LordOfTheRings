@@ -103,13 +103,13 @@ section{
 	background-size: 1500px 700px;
 }
 #playlist{
-	background-image: url("playlist.jpg");
+	background-image: url("naz.jpg");
 }
 #photos{
 	background-image: url("ring.jpg");
 }
 #about{
-	background-image: url("eye.gif") ;
+	background-image: url("eye2.gif") ;
 	background-position: top ; /* Center the image */
 	background-position-y: 100px;
 	background-size: 1500px 600px;
