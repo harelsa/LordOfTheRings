@@ -67,10 +67,10 @@ li a:hover {
 	color: white;
 }
 section{
-	background-image: url("ring.jpg");
+
 	background-position: top ; /* Center the image */
 	background-position-y: 100px;
-
+	background-size: 1500px 1000px;
 	margin-top: 15%;
 	/*margin-left: 15% ;*/
 	background-repeat: no-repeat; /* Do not repeat the image */
@@ -78,14 +78,38 @@ section{
 	padding:1px 16px;
 	height:1000px;
 }
+#contact{
+	background-image: url("contact.jpg");
+}
+#qrcoder{
+	background-image: url("QR.jpg");
+	background-size: 1500px 700px;
+
+}
+#qrcoder p {
+	color: black;
+}
+#spa{
+	background-image: url("QA.jpg");
+	background-size: 1500px 700px;
+}
+#playlist{
+	background-image: url("playlist.jpg");
+}
+#photos{
+	background-image: url("ring.jpg");
+}
 #about{
 	background-image: url("eye.gif") ;
 	background-position: top ; /* Center the image */
 	background-position-y: 100px;
-	height: 1000px;
+	background-size: 1500px 600px;
 	/*margin-top: 25%;*/
 	/*margin-left: 15% ;*/
 	background-repeat: no-repeat; /* Do not repeat the image */
+}
+#about p {
+	font-size: 20px;
 }
 section h1{
 	font-family: "Bookman Old Style", serif;
@@ -120,6 +144,8 @@ section p{
 	color: whitesmoke;
 	text-align: justify;
 	letter-spacing: 3px;
+	font-size: 30px;
+
 }
 
 .photo{
