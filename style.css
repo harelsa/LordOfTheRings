@@ -109,7 +109,7 @@ section{
 	background-image: url("ring.jpg");
 }
 #about{
-	background-image: url("eye2.gif") ;
+	background-image: url("eye.gif") ;
 	background-position: top ; /* Center the image */
 	background-position-y: 100px;
 	background-size: 1500px 600px;
