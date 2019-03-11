@@ -28,11 +28,11 @@ body {
 	padding: 0;
 	width: 85%;
 	/*background-color: black;*/
-	/*background: lightslategrey url(https://subtlepatterns.com/patterns/extra_clean_paper.png);*/
-	background-image: url("Header4.jpg");
-	background-size: 1500px 110px ;
-	background-repeat: no-repeat;
-	background-position: center;
+	background: lightslategrey url(https://subtlepatterns.com/patterns/extra_clean_paper.png);
+	/*background-image: url("Header4.jpg");*/
+	/*background-size: 1500px 110px ;*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: center;*/
 
 }
 
@@ -48,11 +48,11 @@ body {
 	padding: 0;
 	width: 15%;
 	/*background-color: #f1f1f1;*/
-	/*background: lightslategrey url(https://subtlepatterns.com/patterns/extra_clean_paper.png);*/
-	background-image: url("Header4.jpg");
-	background-repeat: no-repeat;
-	background-position: top;
-	background-size: 1000px 600px;
+	background: lightslategrey url(https://subtlepatterns.com/patterns/extra_clean_paper.png);
+	/*background-image: url("Header4.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: top;*/
+	/*background-size: 1000px 600px;*/
 	height: 100%; /* Full height */
 
 }
@@ -68,12 +68,18 @@ li a {
 	color: #000;
 	padding: 8px 16px;
 	text-decoration: none;
+    font-family: "Bookman Old Style", serif ;
+    text-shadow: 5px 5px 5px lightslategray;
+    font-weight: 800;
+    /*letter-spacing: -3px;*/
+    line-height: 1;
 }
 
 /* Change the link color on hover */
 li a:hover {
 	background-color: #555;
 	color: white;
+
 }
 section{
 
@@ -161,7 +167,7 @@ section p{
 	border: 1px solid #ddd;
 	border-radius: 4px;
 	padding: 5px;
-	width: 300px;
+	width: 400px;
 }
 .home{
 	border: 1px solid #ddd;
@@ -170,18 +176,18 @@ section p{
 	width: 400px;
 	margin-left: 50%;
 }
- .content.column {
+ content.column {
 	float: left;
 	width: 33.33%;
 	padding: 5px;
 }
-.content.row::after {
+content.row::after {
 	content: "";
 	clear: both;
 	display: table;
 }
 
-.content {
+content {
 	/*-webkit-flex: 3;*/
 	/*-ms-flex: 3;*/
 	/*flex: 3;*/
